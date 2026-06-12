@@ -1,4 +1,4 @@
-# marketplace-4-skills
+# marketplace-for-skills
 
 A [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces) from [**human-avatar**](https://github.com/human-avatar) — a catalog of **skill packs** that give Claude structured, expert-grade methodologies you can run as slash commands.
 
@@ -55,8 +55,8 @@ Use **Tab** to move between the **Discover**, **Installed**, **Marketplaces**, a
 **3. Or install directly from the prompt:**
 
 ```shell
-/plugin install skills-for-humanity@marketplace-4-skills
-/plugin install skills-for-agriculture@marketplace-4-skills
+/plugin install skills-for-humanity@marketplace-for-skills
+/plugin install skills-for-agriculture@marketplace-for-skills
 ```
 
 **4. Activate.** Run `/reload-plugins` (or restart Claude Code). Skills are namespaced under each pack:
@@ -71,13 +71,13 @@ Use **Tab** to move between the **Discover**, **Installed**, **Marketplaces**, a
 When the catalog changes, refresh your local copy:
 
 ```shell
-/plugin marketplace update marketplace-4-skills
+/plugin marketplace update marketplace-for-skills
 ```
 
 To remove the marketplace (this also uninstalls plugins installed from it):
 
 ```shell
-/plugin marketplace remove marketplace-4-skills
+/plugin marketplace remove marketplace-for-skills
 ```
 
 ## License

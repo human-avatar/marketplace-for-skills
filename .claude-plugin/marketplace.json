@@ -1,0 +1,61 @@
+{
+  "name": "marketplace-4-skills",
+  "owner": {
+    "name": "Finn Fitzsimons",
+    "email": "fitzsimons.finn@gmail.com"
+  },
+  "metadata": {
+    "description": "A marketplace of skill packs for Claude Code — structured, invokable thinking and decision-making frameworks.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skills-for-humanity",
+      "source": {
+        "source": "github",
+        "repo": "human-avatar/skills-for-humanity"
+      },
+      "description": "A structured toolkit of thinking skills for Claude Code — covering logic, ethics, creativity, decision-making, systems thinking, communication, and more. Each skill is an invokable command that applies a specific reasoning framework to any situation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Finn Fitzsimons",
+        "email": "fitzsimons.finn@gmail.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "thinking-tools",
+        "mental-models",
+        "reasoning",
+        "decision-making",
+        "cognitive-frameworks",
+        "problem-solving",
+        "systems-thinking",
+        "ethics",
+        "creativity"
+      ]
+    },
+    {
+      "name": "skills-for-agriculture",
+      "source": {
+        "source": "github",
+        "repo": "human-avatar/skills-for-agriculture"
+      },
+      "description": "Decision-making and guidance skills for farmers, growers, and land stewards — covering regenerative agriculture, soil health, water, livestock, pests, seasons, and more. Each skill is an invokable command that applies a structured framework to farm decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Finn Fitzsimons",
+        "email": "fitzsimons.finn@gmail.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "agriculture",
+        "farming",
+        "regenerative-agriculture",
+        "permaculture",
+        "soil-health",
+        "livestock",
+        "market-garden"
+      ]
+    }
+  ]
+}
